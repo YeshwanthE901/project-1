@@ -48,7 +48,7 @@ export default function ThemeToggle() {
         transition: "all 0.3s ease",
       }}
     >
-      <h1>{theme === "light" ? "☀️ Light Mode" : "🌙 Dark Mode"}</h1>
+      <h1>{theme === "light" ? " Light Mode" : " Dark Mode"}</h1>
       <button
         onClick={toggleTheme}
         style={{
